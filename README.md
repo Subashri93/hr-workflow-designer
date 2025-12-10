@@ -2,7 +2,9 @@ HR Workflow Designer
 
 A visual workflow designer for HR processes, built with React and React Flow. This prototype helps HR teams create and test internal workflows such as onboarding, leave approvals, and document verification.
 
+
 Features
+
 
 Core Capabilities
 
@@ -18,6 +20,7 @@ Workflow simulation with step-by-step execution
 
 Import and export workflows as JSON
 
+
 Node Types
 
 Start Node: Workflow entry point with title and metadata
@@ -29,6 +32,8 @@ Approval Node: Manager or HR approvals with role selection and auto-approve thre
 Automated Step Node: System-triggered actions with dynamic parameters
 
 End Node: Workflow completion with optional summary message
+
+
 
 Architecture Overview
 
@@ -43,6 +48,7 @@ services/ – Mock API functions
 types/ – TypeScript interfaces
 
 utils/ – Helper utilities
+
 
 Key Design Choices
 
@@ -62,6 +68,7 @@ Local UI state for interactions
 
 Centralized updates for node configuration
 
+
 Mock API Layer
 
 Simulated async actions
@@ -69,6 +76,7 @@ Simulated async actions
 Extensible action definitions
 
 Easy to integrate with real backend later
+
 
 Form Handling
 
@@ -78,6 +86,7 @@ Validation and controlled components
 
 Type-safe configuration objects
 
+
 Scalability
 
 Easy to add new node types
@@ -85,6 +94,7 @@ Easy to add new node types
 Clean separation of data and UI
 
 Extensible automation actions
+
 
 Installation
 
